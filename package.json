@@ -2,7 +2,11 @@
   "name": "serve",
   "version": "0.0.1",
   "description": "simple app to serve static files",
-  "main": "home.js",
+  "main": "serve.js",
+  "files": [
+  	"bin",
+	"lib"
+	],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
 	"build": "",
