@@ -2,7 +2,7 @@
   "name": "serve",
   "version": "0.0.1",
   "description": "simple app to serve static files",
-  "main": "serve.js",
+  "main": "./bin/serve",
   "files": [
   	"bin",
 	"lib"
@@ -10,7 +10,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
 	"build": "",
-	"start": "bin/start --home public --port 3300"
+	"start": "bin/serve --home public --port 3300",
+	"serve": "bin/serve --home public --port 3300"
   },
   "repository": {
     "type": "git",
