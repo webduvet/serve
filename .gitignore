@@ -1,0 +1,14 @@
+# exlude node_modules
+node_modules
+
+# exclude tmp and swp files
+*.tmp
+*.swp
+
+# exclude build folders
+build
+public
+
+# exclude logs
+*.log
+log

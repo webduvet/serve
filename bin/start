@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+var Home = require('../lib/home.js');
+
+console.log('start', process.argv);
+var
+	args = process.argv.length > 2 ? process.argv.slice(-2) : [,],
+	path = (typeof args[1]!== 'undefined' && /^(((\/)|(\.)\/|(\.\.)\/))*(((\w+)|(\.\.)|(\.))*\/)*(\w*)$/.test(args[1])) ? args[0] : './',
+	port = /^\d{4}$/.test(args[0]) ? args[1] : 3001;
+
+// treatment for path in current dir with prefix ./ and trailing / if missing
+if (/^\w+/.test(path) ) {
+	path = './'+path;
+}
+if (/\w+$/.test(path) ) {
+	path = path + '/';
+}
+
+var home = new Home({port, path});
+
+home.run();

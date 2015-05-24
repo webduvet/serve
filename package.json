@@ -1,0 +1,17 @@
+{
+  "name": "homeserver",
+  "version": "0.0.1",
+  "description": "simple app to serve static files",
+  "main": "home.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "",
+	"start": "bin/start"
+  },
+  "author": "andrej bartko",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^1.0.0",
+    "mime": "^1.3.4"
+  }
+}
