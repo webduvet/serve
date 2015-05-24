@@ -16,3 +16,5 @@ add run srcript into scripts
 
 the above will  setup static http server running on port 3000 (default is 3001) and serving files from ./yourWwwDirectory
 relative to your npm `package.json` file
+
+	npm start
