@@ -1,12 +1,12 @@
 {
-  "name": "homeserver",
+  "name": "serve",
   "version": "0.0.1",
   "description": "simple app to serve static files",
   "main": "home.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
 	"build": "",
-	"start": "bin/start"
+	"start": "bin/start --home public --port 3300"
   },
   "author": "andrej bartko",
   "license": "ISC",
