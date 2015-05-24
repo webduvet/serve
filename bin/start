@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var Home = require('../lib/serve.js');
+var serve = require('../lib/serve.js');
 
 var 
 	argv = process.argv,
@@ -27,6 +27,6 @@ if (/\w+$/.test(path) ) {
 	path = path + '/';
 }
 
-var home = new Home({port, path});
+serve({port, path})
+	.run();
 
-home.run();
