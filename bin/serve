@@ -11,7 +11,7 @@ var
 	;
 
 if (portIndex >=0 ) {
-	port = /^\d{4}$/.test(argv[portIndex + 1]) ? argv[portIndex + 1] : port;
+	port = /^\d{4}$/.test(argv[portIndex + 1]) ? argv[portIndex + 1]|0 : port;
 }
 
 if (pathIndex >= 0) {
