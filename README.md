@@ -8,7 +8,7 @@ This is a small tool to run very basic static file server to test webapps.
 
 	npm install serve --save-dev
 
-hen edit package.json script. e.g.
+then edit package.json script. e.g.
 
 	scripts: {
 		serve: "node ./node_modules/serve/bin/start --home yourWwwDir --port 3000
@@ -41,4 +41,9 @@ relative to your npm `package.json` file
 or
 
 	npm run serve
+
+
+## TODO
+make the script which would would allow to run any angular app on this simple server without using gulp or grunt solutions
+or without running apache localhost to server static files.
 
