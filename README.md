@@ -44,6 +44,14 @@ or
 
 
 ## TODO
+
+### wrapping script
 make the script which would would allow to run any angular app on this simple server without using gulp or grunt solutions
 or without running apache localhost to server static files.
 
+### integration script
+integration into grunt and gulp would be good
+
+### write some tests
+
+### documentation - youDoc ?
