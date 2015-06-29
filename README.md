@@ -55,3 +55,5 @@ integration into grunt and gulp would be good
 ### write some tests
 
 ### documentation - youDoc ?
+
+### integrate logger - winston? or allow for logger injection ...
