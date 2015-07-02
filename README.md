@@ -57,3 +57,5 @@ integration into grunt and gulp would be good
 ### documentation - youDoc ?
 
 ### integrate logger - winston? or allow for logger injection ...
+
+### revise the global space
