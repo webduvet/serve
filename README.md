@@ -42,6 +42,10 @@ or
 
 	npm run serve
 
+or just start executable
+  
+  ./bin/serve --port XXXX --home yourDir
+
 
 ## TODO
 
