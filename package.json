@@ -1,6 +1,6 @@
 {
   "name": "servelo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "simple app to serve local static files",
   "main": "./bin/serve",
   "files": [
