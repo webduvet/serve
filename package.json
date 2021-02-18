@@ -4,14 +4,14 @@
   "description": "simple app to serve local static files",
   "main": "./bin/serve",
   "files": [
-  	"bin",
-	"lib"
-	],
+    "bin",
+    "lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"build": "",
-	"start": "bin/serve --home public --port 3300",
-	"serve": "bin/serve --home public --port 3300"
+    "build": "",
+    "start": "bin/serve --home public --port 3300",
+    "serve": "bin/serve --home public --port 3300"
   },
   "repository": {
     "type": "git",
