@@ -28,5 +28,3 @@ if (/\w+$/.test(path) ) {
 }
 
 serve({port, path})
-	.run();
-
